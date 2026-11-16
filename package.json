@@ -1,0 +1,29 @@
+{
+  "name": "agentcore-weather",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": "26.x"
+  },
+  "description": "AWS-managed AgentCore workshop bot with a mock TypeScript weather tool",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "synth": "cdk synth",
+    "bootstrap": "cdk bootstrap",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.275.0",
+    "constructs": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "aws-cdk": "^2.1128.1",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
